@@ -2,54 +2,65 @@ body{
     padding:0%;
     margin: 0;
 }
-
-
-
 * {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 word-spacing: 1em;
-
-letter-spacing: 0.2em;
+letter-spacing: 0.1em;
 
 }
 .sidebar{
 float: left;
-width:20%;
+width:19.5%;
 margin:0px;
-background-color:#cc7212;
-height:633px;
+background-color:#e4dfdb;
+height:100vh;
 line-height:2em;
 text-align:center;
+li {
+    list-style-type: none;
    
 }
-
+}
 .main{
     float:left;
-    width: 80%;
+    width: 78%;
     margin: 0px;
-    background-color: aqua;
-    height:633px;
+    background-color: rgb(187, 178, 183);
+    height:100vh;
+    text-align: justify ;
     overflow-y: auto;
+    padding-left: 2em;
+    ul li{
+        list-style-image: url(assets/award.png);
+    }
 }
-.pic{border: 5px solid #cccccc;
+.pic{border: 5px 50% solid #cccccc;
     padding: 0px;
 width: 200px;
 height:200px;text-align: center;
 border-radius: 50%;
-
-/*
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-
-  /*  padding: 0px;
-border-radius: 100px;
--moz-border-radius: 100px;
--webkit-border-radius: 100px;*/
-
+a:hover{
+    color:deeppink;
 }
-li {
-list-style-type: none;
+
 }
 div.sidebar,h1,h3 ,div.pic{
     display:inline block;
+}
+.a2{
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-stretch: semi-condensed;
+}
+.space{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.d3{
+    font-family: inherit;
+    font-size: larger;
+    font-weight: bolder;
 }
